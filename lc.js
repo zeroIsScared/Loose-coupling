@@ -94,4 +94,12 @@ payments.add({ amount: 400, currency: 'EUR', date: '2023-01-04' })
 // how can we pass parametres (min, max)
 //bind 
 //call apply
-let mPayments = payments.filter(v => v.amount >= 200 && v.amount <= 300 ? true : false)
+// let mPayments = payments.filter(min, max, () => {
+//     v.amount >= min && v.amount <= max ? true : false;
+// })
+
+
+let mPayments = payments.filter(v => v.amount >= 200 && v.amount <= 300 ? true : false
+)
+
+console.log(mPayments);
